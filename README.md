@@ -19,7 +19,7 @@ bob.email
 // bob@gmail.com
 ```
 
-However, now that we know how to create objects with specific data, we may also want endow our objects with behavior.  For example, say we would like to add the following behavior to our new user object:
+However, now that we know how to create objects with specific data, we may also want to endow our objects with behavior.  For example, say we would like to add the following behavior to our new user object:
 
 ```js
   bob.sayHello()
@@ -133,7 +133,7 @@ let bob = new User('bob', 'bob@gmail.com')
 // "Hello everybody, my name is bob!"
 ```
 
-So how did this all come together?  We put together our knowledge that when create an object with a constructor function, `this` refers to that newly created object.  Then we used that knowledge to assign each newly created object an attribute of `sayHello` that points to a function.  Finally, we had that method reference data specific to it's object with use of `this`.      
+So how did this all come together?  We put together our knowledge that when we create an object with a constructor function, `this` refers to that newly created object.  Then we used that knowledge to assign each newly created object an attribute of `sayHello` that points to a function.  Finally, we had that method reference data specific to it's object with use of `this`.      
 
 ## Summary
 
@@ -144,3 +144,5 @@ In this lesson, we've learned the differences between methods and functions, and
 + [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-object-methods-readme'>Object Methods in JS</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-object-oriented-object-methods-readme'>Object Methods</a> on Learn.co and start learning to code for free.</p>
