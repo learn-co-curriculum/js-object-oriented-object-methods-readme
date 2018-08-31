@@ -30,7 +30,7 @@ Let's try to write our constructor function in such a way that an instance of a 
 
 ## Adding Methods to an Object
 
-Let's start by just adding one a method to one object, that represents bob.  We begin with our existing code.
+Let's start by just adding one method to one object, that represents bob.  We begin with our existing code.
 
 ```js
 function User (name, email){
