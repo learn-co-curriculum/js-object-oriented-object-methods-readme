@@ -133,7 +133,7 @@ let bob = new User('bob', 'bob@gmail.com')
 // "Hello everybody, my name is bob!"
 ```
 
-So how did this all come together?  We put together our knowledge that when create an object with a constructor function, `this` refers to that newly created object.  Then we used that knowledge to assign each newly created object an attribute of `sayHello` that points to a function.  Finally, we had that method reference data specific to it's object with use of `this`.      
+So how did this all come together?  We put together our knowledge that when we create an object with a constructor function, `this` refers to that newly created object.  Then we used that knowledge to assign each newly created object an attribute of `sayHello` that points to a function.  Finally, we had that method reference data specific to it's object with use of `this`.      
 
 ## Summary
 
