@@ -144,3 +144,5 @@ In this lesson, we've learned the differences between methods and functions, and
 + [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-object-methods-readme'>Object Methods in JS</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-object-oriented-object-methods-readme'>Object Methods</a> on Learn.co and start learning to code for free.</p>
