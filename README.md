@@ -111,7 +111,7 @@ function User (name, email){
 }
 ```
 
-So how do we reference the object whose method's being called's data?  With the `this` object again.  We'll take a deep dive into `this` in a couple lessons, but for now, let's finish up with our functionality.
+How do we reference the data of the object's method?  With the `this` object again.  We'll take a deep dive into `this` in a couple lessons, but for now, let's finish up with our functionality.
 
 ```js
 function User (name, email){
